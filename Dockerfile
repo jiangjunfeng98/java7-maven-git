@@ -1,11 +1,9 @@
 #
 # Java 1.7 & Maven Dockerfile
 #
-# https://github.com/jamesdbloom/docker_java7_maven
-#
 
 # pull base image.
-FROM dockerfile/java
+FROM java:7
 
 # install maven
 RUN apt-get install -y maven
